@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #694545;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 410px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
